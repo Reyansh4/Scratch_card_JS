@@ -12,7 +12,7 @@
         brush        = new Image();
         
     // base64 Workaround because Same-Origin-Policy
-    image.src = 'http://bpsc.teletalk.com.bd/ncad/images/nobody.png';
+    image.src = "Safeimagekit-resized-img_2.png";
     image.onload = function() {
       ctx.drawImage(image, 0, 0);
       // Show the form when Image is loaded.
